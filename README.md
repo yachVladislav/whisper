@@ -13,4 +13,4 @@ FastAPI audio processing service: takes a voice message, sends it to GenAI to co
 2. **Start services**
 - docker-compose up -d
 3. **Download the LLM model (first run only)**
-- docker exec -it ollama ollama pull llama3:1b
+- docker exec -it ollama ollama pull llama3.2:1b
